@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.227.23:9000/</sonar.host.url>
-		<sonar.login>8e7498317c38b9028a2005e59baa21768a395169</sonar.login>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.login>sqa_d83c33a3c00964fa0c814e1fbb300e23b7f63187</sonar.login>
 		<!--<sonar.password>sonar</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -113,17 +113,8 @@
 	
 	<build>
 		<finalName>maven-web-application</finalName>
-
-		
 		
 		<plugins>
-
-			 <plugin>
-          		<groupId>org.apache.maven.plugins</groupId>
-          		<artifactId>maven-war-plugin</artifactId>
-          		<version>2.2</version>
-        		</plugin>
-      		
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -132,7 +123,7 @@
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
-			</plugin> 
+			</plugin>
 
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
@@ -149,7 +140,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>2.2</version>
+				<version>2.9</version>
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
@@ -157,9 +148,6 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
-			     <plugins>
-       
-			
 			
 </plugins>
 	</build>
