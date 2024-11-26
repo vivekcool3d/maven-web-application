@@ -1,0 +1,12 @@
+{
+	"name": "vjtestintegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/f2b51b57-e56b-46f5-94ff-6517e2cb455b/resourcegroups/VJ-ADF/providers/Microsoft.DataFactory/factories/vjdatafactory7887/integrationruntimes/vjintegrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

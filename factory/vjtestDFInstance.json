@@ -1,0 +1,9 @@
+{
+	"name": "vjtestDFInstance",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f90cd121-a50b-4e2d-acfa-01887733dbf8",
+		"tenantId": "89147bbe-0304-4b96-9fea-46df3e52495c"
+	}
+}
